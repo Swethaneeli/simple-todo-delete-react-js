@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.item {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.button {
+  border-color: #ff0b37;
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
